@@ -37,12 +37,9 @@
   box-sizing: content-box;
 }
 
-.red-tc-clickable-region:hover {
-  cursor: pointer;
-}
-
-.red-tc-clickable-region:hover .red:not(.off) {
-  color: rgb(255, 204, 204) !important;
+.red-tc-entry-mode:not(.off) {
+  color: rgb(250, 212, 212) !important;
+  text-shadow: 0px 0px 12px #f58282;
 }
 
 .off {
@@ -100,6 +97,11 @@ width: 2.75%;
   color: rgb(255,100,26);
   transition: color 0.1s;
   text-shadow: 0px 0px 12px #ff0000;
+}
+
+.transparent {
+  color: transparent;
+  transition: color 0.1s;
 }
 
 .green {

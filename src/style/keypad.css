@@ -1,0 +1,76 @@
+.keypad {
+  color:black;
+  background-color: rgb(141, 128, 110);
+  border-radius: 0.5em;
+  vertical-align: top;
+  border: 0.25em rgb(121, 111, 90) outset;
+  z-index: 5;
+  position:relative;
+  width: fit-content;
+  text-align:center;
+  margin: 1em 0 0 2.5em;
+  padding: 0.5em;
+  font-weight:bold;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.25);
+  font-size: 1.5em;
+  font-family: 'Jura', sans-serif;
+}
+
+.keys {
+  background-color: rgb(224,207,191);
+  border: 0.15em rgb(187, 171, 156) inset;
+  border-radius: 0.3em;
+  text-align: center;
+  user-select: none;
+  margin: 0.5em 1em 1em 1em;
+  padding: 0.25em 0.4em 0.25em 0.4em;
+}
+
+.key {
+  font-size: 1.1em;
+  font-weight:600;
+  display:inline-block;
+  background-color: rgb(241, 223, 213);
+  border: 0.15em rgb(207, 191, 175) outset;
+  border-radius: 0.1em;
+  text-align: center;
+  padding: 0.2em;
+  width: 1em;
+  height: 1em;
+  margin: 0.15em;
+  cursor: pointer;
+}
+
+.key:active{
+  filter: brightness(85%);
+}
+
+.down{
+  filter: brightness(85%);
+}
+
+.green-key{
+  background-color: rgb(132, 194, 137);
+  border: 0.15em  rgb(97, 177, 103) outset;
+}
+
+.yellow-key{
+  background-color: rgb(202, 186, 114);
+  border: 0.15em  rgb(177, 163, 100) outset;
+}
+
+span {
+  font-size: 0.9em;
+}
+
+.keypad-dymo {  
+  color:#ffffff;
+  background-color: rgb(131, 40, 40);
+  text-align:center;
+  font-size: 0.7em;
+  margin: 2.5em;
+  padding: 0.15em 0.5em;
+  font-family: 'Jura', sans-serif;
+  font-weight:normal;
+}

@@ -14,8 +14,7 @@ class Book extends React.Component {
                                 Your friend in time - Emmett "Doc" Brown.</>,
 
                              <><em>Setting a destination time</em>{br3}
-                                <li>Click the topmost date readout - the red one.</li><br></br>
-                                <li>Input your new destination time on the keypad in the following format:</li><br></br>
+                                <li>To set a new destination time, simply enter the new time on the keypad in the following format:</li><br></br>
                                 <li>MM DD YYYY hh mm</li><br></br>
                                 <li>Confirm to update the display with your new destination time.</li><br></br></>,
 
@@ -34,7 +33,8 @@ class Book extends React.Component {
                      </div>
                     <div className="half">
                         <div className="bookleaf right" onClick={()=>{this.setState({page:this.state.page+1})}}>
-                            DOC'S NOTEBOOK
+                            <br></br><br></br><br></br>
+                            <br></br>INSTRUCTION<br></br>MANUAL
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,6 @@
   font-weight:bold;
   font-size: 1.2em;
   text-align: center;
-  line-height: 8em;  
   background-color: rgb(83, 49, 20);
   width:100%;
   height:100%;
@@ -36,13 +35,13 @@
 }
 
 .bookleaf.left {
-  border-radius: 1em 0 0 1em;
+  border-radius: 1em 0.25em 0.25em 1em;
   border-left: 0.4em outset rgb(66, 39, 16);
   border-right: 0.3em outset rgb(66, 39, 16);
 }
 
 .bookleaf.right {
-  border-radius: 0 1em 1em 0;
+  border-radius: 0.25em 1em 1em 0.25em;
   border-left: 0.3em outset rgb(66, 39, 16);
   border-right: 0.4em outset rgb(66, 39, 16);
 }
