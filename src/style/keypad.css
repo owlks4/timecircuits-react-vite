@@ -9,7 +9,7 @@
   width: fit-content;
   text-align:center;
   margin: 1em 0 0 2.5em;
-  padding: 0.5em;
+  padding: 0.5em 0.25em;
   font-weight:bold;
   box-sizing: border-box;
   box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.25);
@@ -24,11 +24,11 @@
   text-align: center;
   user-select: none;
   margin: 0.5em 1em 1em 1em;
-  padding: 0.25em 0.4em 0.25em 0.4em;
+  padding: 0.4em 0.5em;
 }
 
 .key {
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-weight:600;
   display:inline-block;
   background-color: rgb(241, 223, 213);
@@ -68,8 +68,7 @@ span {
   color:#ffffff;
   background-color: rgb(131, 40, 40);
   text-align:center;
-  font-size: 0.7em;
-  margin: 2.5em;
+  font-size: 0.6em;  
   padding: 0.15em 0.5em;
   font-family: 'Jura', sans-serif;
   font-weight:normal;
